@@ -1,5 +1,5 @@
 @extends('layouts.home')
 
-@section('title', 'Vendas')
+@section('title', 'Murangotango | E-commerce')
 @section('content')
 @endsection
