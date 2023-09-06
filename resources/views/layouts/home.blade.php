@@ -6,6 +6,8 @@
 
       <title>@yield('title')</title>
 
+      <link rel="icon" href="img/murangotango.ico"/>
+
       <!--Fonte do Google -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +53,10 @@
             <path d="M4 18l16 0"></path>
          </svg>
         </a>
-        <div class="container text-center">
+        <div class="col-4">
+          <img src={{ asset('img/murangotango.ico') }} alt="Logo" class="img-fluid w-25">
+        </div>
+        <div class="container text-align-start">
         <a href="/" class="navbar-brand"> MurangotangoShop </a>
           <div class="collapse navbar-collapse">
             <div class="navbar-nav fw-bold text-white">
